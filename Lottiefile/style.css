@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4fb;
+  color: #1c1c1c;
+}
+
+.intro {
+  background: linear-gradient(to right, #004e92, #000428);
+  color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.intro h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  font-size: 1.2rem;
+}
+
+.scroll-container {
+  height: 200vh;
+  position: relative;
+  background: #e0efff;
+}
+
+.sticky-lottie {
+  position: sticky;
+  top: 25vh;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+lottie-player {
+  width: 400px;
+  height: 400px;
+}
+
+.opleiding {
+  padding: 4rem 2rem;
+  background: #ffffff;
+}
+
+.opleiding h2 {
+  color: #005999;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.opleiding p,
+.opleiding li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.opleiding ul {
+  margin: 1rem 0;
+}
+
+.stats {
+  background: #d6ecff;
+  padding: 4rem 2rem;
+}
+
+.stats h2 {
+  color: #004080;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.bars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bar-item {
+  width: 300px;
+}
+
+.bar-item h3 {
+  margin-bottom: 0.3rem;
+}
+
+.bar {
+  width: 100%;
+  height: 20px;
+  background: #c0d6ef;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fill {
+  background: linear-gradient(to right, #004e92, #00c6ff);
+  height: 100%;
+  width: 0%;
+  color: white;
+  font-size: 0.8rem;
+  text-align: right;
+  padding-right: 5px;
+  line-height: 20px;
+  border-radius: 10px;
+  transition: width 2.5s ease-in-out;
+}
+
+.cards {
+  background: #fefefe;
+  padding: 4rem 2rem;
+}
+
+.cards h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background: linear-gradient(145deg, #e6f0ff, #ffffff);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  color: #005999;
+}
+
+.carousel-section {
+  background: #f0f6ff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.carousel-section h2 {
+  font-size: 2rem;
+  color: #004e92;
+  margin-bottom: 2rem;
+}
+
+.swiper-container {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  background: #002244;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
